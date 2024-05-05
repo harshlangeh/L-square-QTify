@@ -6,5 +6,27 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 32px;
-    
+
 }
+
+
+/* 
+.button {
+    height: 47px;
+    width: 13vw;
+    font-family: Poppins;
+    text-align: center;
+    background-color: var(--css-black);
+    color: var(--css-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    position: relative;
+    border: 1px;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+
+
+ */
