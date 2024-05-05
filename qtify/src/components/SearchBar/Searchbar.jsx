@@ -13,4 +13,6 @@ function Searchbar({placeholder}) {
   )
 }
 
+
+
 export default Searchbar
