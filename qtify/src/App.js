@@ -4,12 +4,14 @@ import { StyledEngineProvider } from '@mui/material';
 import './App.css';
 import { Outlet } from 'react-router-dom';
 import { useEffect } from 'react';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
     <>
     <StyledEngineProvider injectFirst>
       <Navbar/>
+      <Hero/>
     </StyledEngineProvider> 
     </>
   );
