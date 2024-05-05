@@ -11,7 +11,7 @@ function App() {
     <>
     <StyledEngineProvider injectFirst>
       <Navbar/>
-      <Hero/>
+      <Hero heading1="100 Thousand Songs, ad-free" heading2="Over thousands podcast episodes"/>
     </StyledEngineProvider> 
     </>
   );
