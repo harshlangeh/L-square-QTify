@@ -1,19 +1,19 @@
 import React from 'react'
-import "./Navbar.css"
-import Searchbar from '../SearchBar/Searchbar'
 import Button from '../Button/Button'
+import styles from './Navbar.module.css'
 import Logo from '../Logo/Logo'
+import Searchbar from '../Searchbar/Searchbar'
 
-const Navbar = ({onButtonClick}) => {
-    return (
-        <div className='navbar'>
-            <div className='logo'><Logo/></div>
-            <div>
-                <Searchbar />
-            </div>
-            <div className='feedback'><Button children={onButtonClick}/></div>
-        </div>
-    )
+function Navbar() {
+  return (
+    <nav className={styles.navbar}>
+        <a href="/">
+        <Logo />
+        </a>
+        <Searchbar placeholder="Search a album of your choice"/>
+        <Button children={"Give Feedback"} />
+    </nav>
+  )
 }
 
 export default Navbar

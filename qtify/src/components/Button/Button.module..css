@@ -12,14 +12,6 @@
     border: 1px;
     margin-right: 3vw;
     cursor: pointer;
-
-}
-
-.button h3 {
-    font-family: Poppins;
-    font-size: 15px;
-    color: var(--css-primary);
-    position: relative;
 }
 
 

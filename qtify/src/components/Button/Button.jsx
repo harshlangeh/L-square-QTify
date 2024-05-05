@@ -1,12 +1,12 @@
 import React from 'react'
-import './Button.css'
+import styles from '../Button/Button'
 
-const Feedback = ({ onButtonClick }) => {
+function Button({children}) {
   return (
-    <div className='button'>
-      <h3 onClick={onButtonClick}>Give Feedback</h3>
+    <div>
+      <button className={styles.button}>{children}</button>
     </div>
-  );
+  )
 }
 
-export default Feedback
+export default Button
